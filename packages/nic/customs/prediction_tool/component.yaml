@@ -1,0 +1,18 @@
+name: prediction_tool
+author: nic
+version: 0.1.0
+type: custom
+description: A tool for generating detailed price and market predictions using OpenAI
+  GPT and Perplexity AI, combining multiple research components for comprehensive
+  analysis
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeih4qu7rzy4v5gcxug44ctgkicaishz5cu4dnmqd3a6tpbzuqyzxv4
+  prediction_tool.py: bafybeibmnqjb4ixuuq5aly6bi3y3aw3hdulhs2ghbxdky6ml6objjzoj5m
+fingerprint_ignore_patterns: []
+entry_point: prediction_tool.py
+callable: run
+dependencies:
+  openai:
+    version: ==1.30.2

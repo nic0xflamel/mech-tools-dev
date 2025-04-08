@@ -1,0 +1,21 @@
+name: macro_outlook
+author: ivan
+version: 0.1.0
+type: custom
+description: A tool for generating macro outlook reports for the crypto market using
+  bitcoin price prediction data from Synth and AI analysis from Perplexity. Provides
+  detailed analysis of predicted price trends, key levels, volatility assessment,
+  and risk factors over the short term and medium term.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeiffsiqc57thnti46n5kyv5qo3x2mzobe5jggzbdergw4e2nt4ee5u
+  macro_outlook.py: bafybeigq3vp4a45wae6cc6wefcsqh2mcmjz2hbazobg3jwdxdn72itpjxm
+fingerprint_ignore_patterns: []
+entry_point: macro_outlook.py
+callable: run
+dependencies:
+  openai:
+    version: '>=1.58.1'
+  requests:
+    version: '>=2.29.0'

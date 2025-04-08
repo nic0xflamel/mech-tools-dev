@@ -1,0 +1,1 @@
+"""This module contains the wallets trades history tool."""

@@ -1,0 +1,16 @@
+name: orchestrator_tool
+author: dvilela
+version: 0.1.0
+type: custom
+description: A tool that orchestrates other tools.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeicsi3kd254a467x2se7tyed5io73r65gjc7l253q5wldhi7hhndbu
+  orchestrator_tool.py: bafybeifk5m555lt35zjzurixmnf77bwcggitpfyppbcweyr2qu7g462eei
+fingerprint_ignore_patterns: []
+entry_point: orchestrator_tool.py
+callable: run
+dependencies:
+  google-generativea:
+    version: '>=0.8.4'

@@ -1,0 +1,25 @@
+name: technical_analysis
+author: nic
+version: 0.1.0
+type: custom
+description: A tool for analyzing technical indicators and generating AI-powered analysis
+  for cryptocurrency pairs using TAapi and OpenAI GPT
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeic2dy4aq24ssmyulv77u3ovgdjtgga6vltbf3iadyoqtfm337zaku
+  technical_analysis.py: bafybeig7rhv2j5sct4zbhcfu6k4xz42enbtidxtwuxuyu6xvebtydjn6tq
+fingerprint_ignore_patterns: []
+entry_point: technical_analysis.py
+callable: run
+dependencies:
+  openai:
+    version: '>=1.58.1'
+  requests:
+    version: '>=2.29.0'
+  pandas:
+    version: '>=2.0.0'
+  numpy:
+    version: '>=1.24.0'
+  python-dotenv:
+    version: '>=1.0.0'

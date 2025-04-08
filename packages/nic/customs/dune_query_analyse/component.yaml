@@ -1,0 +1,19 @@
+name: dune_query_analyse
+author: nic
+version: 0.1.0
+type: custom
+description: A tool for analyzing Dune Analytics query results using OpenAI GPT to
+  provide actionable insights and strategic recommendations from on-chain data
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeidsksheziyewyeyv77wwtnacwu6kabyaxbibpy4n6erptrksu7sem
+  dune_query_analyse.py: bafybeib24zzdy32caw5hdrhstfdf3gpcy2f7ibrlwwqa7di4ygvkdbjmj4
+fingerprint_ignore_patterns: []
+entry_point: dune_query_analyse.py
+callable: run
+dependencies:
+  dune-client:
+    version: '>=1.0.0'
+  openai:
+    version: '>=1.58.1'

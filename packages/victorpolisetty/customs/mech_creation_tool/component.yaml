@@ -1,0 +1,15 @@
+name: mech_creation_tool
+author: victorpolisetty
+version: 0.1.0
+type: custom
+description: A tool that runs a prompt against OpenAI and generates necessary mech
+  tool files.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeicokooiqnmkldoi5tx6zv6svtjoak5ghj5o3vsi4iliq2pvqaa6uy
+  create_mech_tool.py: bafybeigtmsoa654swztagjbsgkoqxihn6ov4arn4so4cuvdmi74gsvxywe
+fingerprint_ignore_patterns: []
+entry_point: mech_creation_tool.py
+callable: run
+dependencies: {}

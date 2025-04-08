@@ -1,0 +1,19 @@
+name: dune_query_extract
+author: nic
+version: 0.1.0
+type: custom
+description: A tool for extracting and analyzing data from Dune Analytics queries
+  using the Dune API and OpenAI GPT for specific information extraction
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeifau5an457nihwb2lreqnredewy2ky5na4z5kkavr6epav2grwvty
+  dune_query_extract.py: bafybeifqecc5hzunwe7r4ogahgpogndgqlgleoqcd5fnzci3hnyiphixuu
+fingerprint_ignore_patterns: []
+entry_point: dune_query_extract.py
+callable: run
+dependencies:
+  dune-client:
+    version: '>=1.0.0'
+  openai:
+    version: '>=1.58.1'

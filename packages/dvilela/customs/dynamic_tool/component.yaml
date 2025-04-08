@@ -1,0 +1,16 @@
+name: dynamic_tool
+author: dvilela
+version: 0.1.0
+type: custom
+description: A tool that is dynamically created and evaluated.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeicsi3kd254a467x2se7tyed5io73r65gjc7l253q5wldhi7hhndbu
+  dynamic_tool.py: bafybeiahlh4ikfec463obzaguhfrjhvjholtujazezkpccgy4uyhoahebe
+fingerprint_ignore_patterns: []
+entry_point: dynamic_tool.py
+callable: run
+dependencies:
+  google-generativea:
+    version: '>=0.8.4'
